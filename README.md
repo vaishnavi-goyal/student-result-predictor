@@ -7,6 +7,6 @@ Machine Learning project that predicts student marks based on study hours.
 - Scikit-learn
 
 # screenshot
-![Student Result Predictor](student result predition output .jpeg)
+![Output](output.jpeg)
 ## Run
 python student_result.py
