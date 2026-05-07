@@ -1,3 +1,4 @@
+#student result predition
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -24,7 +25,6 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 # Prediction
-hours = [[6]]
+hours = pd.DataFrame([[6]], columns=["StudyHours"])
 predicted_marks = model.predict(hours)
-
 print("Predicted Marks:", predicted_marks[0])
