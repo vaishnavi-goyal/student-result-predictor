@@ -6,7 +6,8 @@ Machine Learning project that predicts student marks based on study hours.
 - Pandas
 - Scikit-learn
 
-# screenshot
-![Output](output.jpeg)
-## Run
+# Run
 python student_result.py
+
+# Output
+![Output](output.jpeg)
